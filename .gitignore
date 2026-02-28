@@ -1,0 +1,41 @@
+# Results and data
+**/results/
+**/data/
+**/genotypes/
+**/figures/
+
+# Excluded folders
+07_functional_annotation/
+docs/
+data/
+.Rproj.user/
+
+# R files
+*.Rproj
+.Rhistory
+.RData
+.Ruserdata
+
+# Specific utils scripts not for sharing
+utils/csv_to_vcf.R
+utils/csv_to_vcf.sh
+
+# Large file types
+*.fa
+*.fa.fai
+*.vcf.gz
+*.vcf.gz.tbi
+*.vcor1
+*.vcor2
+*.rds
+*.bgen
+*.bgen.bgi
+*.snplist
+*.phe
+*.pgen
+*.psam
+*.pvar
+
+# OS files
+.DS_Store
+Thumbs.db
